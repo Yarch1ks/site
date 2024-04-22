@@ -117,9 +117,14 @@ header h2 {
 }
 
 .faq-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+    margin-left: 0;
     font-size: 24px;
     height: 600px;
-    width: 100%;
+    width: 1;
     padding: 20px;
     background-color: #fff; 
     border-radius: 15px;
