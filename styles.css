@@ -64,25 +64,15 @@ header h2 {
     align-items: center;
     position: absolute;
     top: 50%; 
-    right: 30%; 
+    right: 25%; 
     transform: translate(50%, -50%); 
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border: 2px dashed black;
     border-radius: 50%;
     color: #000000;
     font-size: 50px;
 }
-
-.block::before {
-    content: "-";
-    position: absolute;
-    top: calc(50% - 1px);
-    right: -35px;
-    color: #fff;
-    font-size: 30px;
-}
-
 
 .block::before {
     content: "-";
@@ -118,12 +108,10 @@ header h2 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-
     margin-left: 0;
     font-size: 24px;
     height: 600px;
     width: 1;
-    padding: 20px;
     background-color: #fff; 
     border-radius: 15px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
@@ -139,4 +127,45 @@ header h2 {
 
 .faq-item p {
     color: #666; /* Серый цвет текста */
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .cashback {
+        width: 100%;
+    }
+
+    .cashback img {
+        width: 100%;
+    }
+
+    .block {
+        height: 300px;
+    }
+
+    .block::after {
+        content: attr(data-number);
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    .faq-container {
+        font-size: 18px;
+        height: auto;
+    }
 }
