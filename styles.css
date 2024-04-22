@@ -41,6 +41,23 @@ header h2 {
     padding: 50px;
 }
 
+.avatar{
+    display: inline;
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.avatar img {
+    position: absolute;
+    height: 1100px;
+    margin: -302px 0 0 310px;
+    opacity: 0.02;
+    transform: scaleX(-1);
+}
+
+
 .cashback {
     width: 200px;
 }
@@ -128,6 +145,8 @@ header h2 {
 .faq-item p {
     color: #666; /* Серый цвет текста */
 }
+
+
 
 
 @media only screen and (max-width: 767px) {
