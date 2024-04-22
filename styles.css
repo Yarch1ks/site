@@ -60,14 +60,14 @@ header h2 {
 }
 
 .block::after {
-    content: attr(data-number); /* использование атрибута data-number для вывода цифры */
+    content: attr(data-number); 
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%; /* размещение по вертикали в центре блока */
-    right: 30%; /* размещение по горизонтали в центре блока */
-    transform: translate(50%, -50%); /* сдвиг элемента на половину его размеров вправо и вверх */
+    top: 50%; 
+    right: 30%; 
+    transform: translate(50%, -50%); 
     width: 150px;
     height: 150px;
     border: 2px dashed black;
