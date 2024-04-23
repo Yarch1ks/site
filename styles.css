@@ -8,28 +8,28 @@ body {
 
 .cashback_score {
     width: 25%;
-    height: 100px; /* Поменяем высоту на auto, чтобы контейнер мог подстраиваться под содержимое */
+    height: 100px; 
     padding: 20px;
     background-color: #fff; 
     position: relative; 
     margin: 50px auto;
     border-radius: 20px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
-    overflow: hidden; /* Добавим overflow: hidden, чтобы родительский контейнер подстраивался под дочерние элементы */
+    overflow: hidden;
 }
 
 .donut {
     float: left;
-    margin-right: 10px; /* Уменьшим отступ справа от изображения */
-    margin-top: -10px; /* Уменьшим верхний отступ, чтобы изображение было ближе к тексту */
+    margin-right: 10px; 
+    margin-top: -10px; 
 }
 
 .cashback_score p {
     font-size: 18px;
     display: inline-block;
     vertical-align: middle;
-    margin: 24px 0 0 30px; /* Уберём внешние отступы у параграфа, чтобы избежать дополнительных пробелов */
-    text-align: center; /* Добавим это свойство, чтобы выровнять текст по центру */
+    margin: 24px 0 0 30px;
+    text-align: center; 
 }
 
 
